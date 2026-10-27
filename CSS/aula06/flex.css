@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 5px solid aqua;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(18, 18, 88);
+    color: aliceblue;
+    width: 150px;
+    height: 150px;
+}
+
+main{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}

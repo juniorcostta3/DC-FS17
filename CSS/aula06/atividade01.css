@@ -1,0 +1,12 @@
+.Bloco_Receita{
+    display: flex;
+    justify-content: center;
+}
+
+.receita{
+    border-radius: 20px;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 15px;
+    width: 500px;
+}   

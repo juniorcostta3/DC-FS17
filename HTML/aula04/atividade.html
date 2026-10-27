@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="Digite seu email">
+        <br>
+
+        <label for="genero">Gênero: </label>
+        <br>
+
+        <input type="radio" name="genero" id="masc" value="op1">
+        <label for="masc">Masculino</label>
+        <br>
+
+        <input type="radio" name="genero" id="femi" value="op2">
+        <label for="femi">Feminino</label>
+        <br>
+
+        <input type="radio" name="genero" id="naor" value="op3">
+        <label for="naor">Prefiro não responder</label>
+        <br>
+    </fieldset>
+
+
+        <label for="">Unidade de interesse: </label>
+        <br>
+
+        <input type="checkbox" name="interesse" id="fortaleza" value="local1">
+        <label for="fortaleza">Fortaleza</label>
+        <br>
+
+        <input type="checkbox" name="interesse" id="caucaia" value="local2">
+        <label for="caucaia">Caucaia</label>
+        <br>
+
+        <input type="checkbox" name="interesse" id="eusebio" value="local3">
+        <label for="eusebio">Eusebio</label>
+        <br>
+
+        <label for="estado">Cargo de interesse</label>
+        <select name="" id="">
+            
+            <option value="padrao">Padrão</option>
+            <option value="dev">Pessoa Desenvolvedora</option>
+            <option value="ads">Analista de Sistemas</option>
+            <option value="adm">Administrador(a) de banco de dados</option>
+            <option value="test">Testador(a)</option>
+
+        </select>
+
+        <br>
+
+        <label for="campoTexto">Faça um comentário sobre você: </label>
+        <br>
+        <textarea name="campoTexto" id="campoTexto" cols="60" rows="20" maxlength="1000" placeholder="Digite aqui o seu resumo"></textarea>
+        <br>
+
+        <input type="submit" value="Enviar formulário">
+    </form>
+</body>
+</html>

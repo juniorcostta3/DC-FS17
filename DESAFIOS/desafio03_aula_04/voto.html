@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votação - Melhores do Cinema</title>
+</head>
+<body>
+
+    <h1>Votação - Melhores do Cinema</h1>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend><h2>Dados do participante</h2></legend>
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Filme</h2></legend>
+
+            <p>Qual filme você escolheria como Melhor Filme?</p>
+
+            <input type="radio" id="filme1" name="melhor_filme" value="Bohemian Rhapsody" required>
+            <label for="filme1">Bohemian Rhapsody</label><br>
+
+            <input type="radio" id="filme2" name="melhor_filme" value="Pantera Negra">
+            <label for="filme2">Pantera Negra</label><br>
+
+            <input type="radio" id="filme3" name="melhor_filme" value="Infiltrado na Klan">
+            <label for="filme3">Infiltrado na Klan</label><br>
+
+            <input type="radio" id="filme4" name="melhor_filme" value="A Favorita">
+            <label for="filme4">A Favorita</label><br>
+
+            <input type="radio" id="filme5" name="melhor_filme" value="Green Book">
+            <label for="filme5">Green Book</label><br>
+
+            <input type="radio" id="filme6" name="melhor_filme" value="Roma">
+            <label for="filme6">Roma</label><br>
+
+            <input type="radio" id="filme7" name="melhor_filme" value="Nasce uma Estrela">
+            <label for="filme7">Nasce uma Estrela</label><br>
+
+            <input type="radio" id="filme8" name="melhor_filme" value="Vice">
+            <label for="filme8">Vice</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Diretor</h2></legend>
+
+            <p>Qual diretor você escolheria?</p>
+
+            <input type="radio" id="diretor1" name="melhor_diretor" value="Alfonso Cuarón - Roma" required>
+            <label for="diretor1">Alfonso Cuarón — Roma</label><br>
+
+            <input type="radio" id="diretor2" name="melhor_diretor" value="Spike Lee - Infiltrado na Klan">
+            <label for="diretor2">Spike Lee — Infiltrado na Klan</label><br>
+
+            <input type="radio" id="diretor3" name="melhor_diretor" value="Paweł Pawlikowski - Guerra Fria">
+            <label for="diretor3">Paweł Pawlikowski — Guerra Fria</label><br>
+
+            <input type="radio" id="diretor4" name="melhor_diretor" value="Yorgos Lanthimos - A Favorita">
+            <label for="diretor4">Yorgos Lanthimos — A Favorita</label><br>
+
+            <input type="radio" id="diretor5" name="melhor_diretor" value="Adam McKay - Vice">
+            <label for="diretor5">Adam McKay — Vice</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Ator</h2></legend>
+
+            <p>Qual ator você escolheria?</p>
+
+            <input type="radio" id="ator1" name="melhor_ator" value="Christian Bale - Vice" required>
+            <label for="ator1">Christian Bale — Vice</label><br>
+
+            <input type="radio" id="ator2" name="melhor_ator" value="Bradley Cooper - Nasce uma Estrela">
+            <label for="ator2">Bradley Cooper — Nasce uma Estrela</label><br>
+
+            <input type="radio" id="ator3" name="melhor_ator" value="Willem Dafoe - No Portal da Eternidade">
+            <label for="ator3">Willem Dafoe — No Portal da Eternidade</label><br>
+
+            <input type="radio" id="ator4" name="melhor_ator" value="Rami Malek - Bohemian Rhapsody">
+            <label for="ator4">Rami Malek — Bohemian Rhapsody</label><br>
+
+            <input type="radio" id="ator5" name="melhor_ator" value="Viggo Mortensen - Green Book">
+            <label for="ator5">Viggo Mortensen — Green Book</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Atriz</h2></legend>
+
+            <p>Qual atriz você escolheria?</p>
+
+            <input type="radio" id="atriz1" name="melhor_atriz" value="Yalitza Aparicio - Roma" required>
+            <label for="atriz1">Yalitza Aparicio — Roma</label><br>
+
+            <input type="radio" id="atriz2" name="melhor_atriz" value="Glenn Close - A Esposa">
+            <label for="atriz2">Glenn Close — A Esposa</label><br>
+
+            <input type="radio" id="atriz3" name="melhor_atriz" value="Olivia Colman - A Favorita">
+            <label for="atriz3">Olivia Colman — A Favorita</label><br>
+
+            <input type="radio" id="atriz4" name="melhor_atriz" value="Lady Gaga - Nasce uma Estrela">
+            <label for="atriz4">Lady Gaga — Nasce uma Estrela</label><br>
+
+            <input type="radio" id="atriz5" name="melhor_atriz" value="Melissa McCarthy - Poderia Me Perdoar?">
+            <label for="atriz5">Melissa McCarthy — Poderia Me Perdoar?</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Ator Coadjuvante</h2></legend>
+
+            <label for="ator_coadjuvante">Escolha um ator coadjuvante:</label>
+            <select id="ator_coadjuvante" name="ator_coadjuvante" required>
+                <option value="">-- Selecione --</option>
+                <option value="Mahershala Ali - Green Book">Mahershala Ali — Green Book</option>
+                <option value="Adam Driver - Infiltrado na Klan">Adam Driver — Infiltrado na Klan</option>
+                <option value="Sam Elliott - Nasce uma Estrela">Sam Elliott — Nasce uma Estrela</option>
+                <option value="Richard E. Grant - Poderia Me Perdoar?">Richard E. Grant — Poderia Me Perdoar?</option>
+                <option value="Sam Rockwell - Vice">Sam Rockwell — Vice</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Melhor Atriz Coadjuvante</h2></legend>
+
+            <label for="atriz_coadjuvante">Escolha uma atriz coadjuvante:</label>
+            <select id="atriz_coadjuvante" name="atriz_coadjuvante" required>
+                <option value="">-- Selecione --</option>
+                <option value="Amy Adams - Vice">Amy Adams — Vice</option>
+                <option value="Marina de Tavira - Roma">Marina de Tavira — Roma</option>
+                <option value="Regina King - Se a Rua Beale Falasse">Regina King — Se a Rua Beale Falasse</option>
+                <option value="Emma Stone - A Favorita">Emma Stone — A Favorita</option>
+                <option value="Rachel Weisz - A Favorita">Rachel Weisz — A Favorita</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Filmes indicados</h2></legend>
+
+            <p>Você já assistiu a algum dos filmes indicados?</p>
+
+            <input type="radio" id="assistiu_sim" name="assistiu" value="Sim" required>
+            <label for="assistiu_sim">Sim</label><br>
+
+            <input type="radio" id="assistiu_nao" name="assistiu" value="Não">
+            <label for="assistiu_nao">Não</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Gêneros favoritos</h2></legend>
+
+            <p>Qual gênero de filme você mais gosta? (você pode marcar mais de um)</p>
+
+            <input type="checkbox" id="genero1" name="generos" value="Drama">
+            <label for="genero1">Drama</label><br>
+
+            <input type="checkbox" id="genero2" name="generos" value="Comédia">
+            <label for="genero2">Comédia</label><br>
+
+            <input type="checkbox" id="genero3" name="generos" value="Ação">
+            <label for="genero3">Ação</label><br>
+
+            <input type="checkbox" id="genero4" name="generos" value="Romance">
+            <label for="genero4">Romance</label><br>
+
+            <input type="checkbox" id="genero5" name="generos" value="Biografia">
+            <label for="genero5">Biografia</label><br>
+
+            <input type="checkbox" id="genero6" name="generos" value="Suspense">
+            <label for="genero6">Suspense</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h2>Opinião</h2></legend>
+
+            <label for="filme_favorito">Qual foi o seu filme favorito entre os indicados?</label><br>
+            <input type="text" id="filme_favorito" name="filme_favorito" placeholder="Digite o nome do filme">
+            <br><br>
+
+            <label for="motivo">Por que você escolheu esse filme?</label><br>
+            <textarea id="motivo" name="motivo" rows="6" cols="50" placeholder="Escreva aqui a sua resposta..."></textarea>
+        </fieldset>
+
+        <br>
+
+        <button type="submit">Enviar votação</button>
+        <button type="reset">Limpar formulário</button>
+
+    </form>
+
+</body>
+</html>
