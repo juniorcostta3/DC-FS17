@@ -1,17 +1,27 @@
-const nome = 'Junior'
-const idade = 26
-// Variaveis do tipo const pode ser declaradas apenas uma vez, mas não aceitam reatribuição de valor, ou seja, não podem ser alteradas.
+/* COMANDOS GIT NO TERMINAL PARA CRIAÇÃO DE UMA NOVA BRANCH */
 
-var cor = 'Azul'
-cor = 'Laranja e branco'
-// Variaveis do tipo var podem ser declaradas mais de uma vez, e aceitam reatribuição de valor, ou seja, podem ser alteradas.
+/*
+git checkout -b nova-branch
+git push -u origin nova-branch
+ 
+1 -Cria a nova ramificação e muda para ela
+2 -Publica a nova ramificação para o repositório remoto
+3- Trabalhe normalmente com as adições, commits e pushs
 
-// Variaveis do tipo let podem ser declaradas mais de uma vez, e aceitam reatribuição de valor, ou seja, podem ser alteradas.
-let raca = 'gato fofo'
-raca = 'gatinho'
+git add arquivo.html
+  ou
+git add .
+git commit -m 'exemplo de commit'
+git push origin nova-branch
 
-// regras para nomes de variaveis
-// 1 - Não pode começar com número
-// 2 - Não pode conter espaços
-// 3 - Não pode conter caracteres especiais, exceto o underline (_) e o cifrão ($)
-// 4 - Não utilize inicial maiúscula
+4- depois de todas as alterações e a funcionalidade estar pronta, vocé pode fechar a ramificação e voltar para a ramificação principal.
+
+git checkout main
+
+5- vá no repositório de github e abra uma nova pull request para a ramificação nova-branch
+6- aprove a pull request e ela vai para a ramificação main
+
+git pull origin main
+
+7- vai atualizar a ramificação local para a ramificação main com todas alterações do merge
+*/
