@@ -1,14 +1,19 @@
-/*A03-Q03 */
+/*A03-Q03
+Leia um limite e exiba todos os números pares de 0 até ele.*/
 
-let limite = parseInt(prompt("Digite o número limite:"));
-let numero = 0;
+// processo repetitivo : testar se o número é par ou não. SE for par mostar no console.
+// as informações que precisamos: o número limite e o numero inicial
 
-if (!isNaN(limite) && limite >= 0) {
-    console.log(`Números pares de 0 até ${limite}:`);
-    while (numero <= limite) {
-        console.log(numero);
-        numero += 2; 
+let limite = Number(prompt("Digite um limite"))
+let numeroInicial = 0
+
+while(numeroInicial <= limite){
+
+    if(numeroInicial % 2 ==0){
+        console.log(numeroInicial)
     }
-} else {
-    alert("Por favor, digite um número inteiro maior ou igual a zero!");
+
+    // atualizar a variável que controla o laço
+     numeroInicial++
+
 }
